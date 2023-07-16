@@ -1,5 +1,5 @@
 import "./404.css";
-import image from "../../../public/img/404.gif";
+import image from "/Img/404.gif";
 import { Link } from "react-router-dom";
 
 function Error404() {
