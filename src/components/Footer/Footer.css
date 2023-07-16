@@ -1,0 +1,11 @@
+footer {
+  margin: 15px auto 7em;
+  text-align: center;
+  color: #000;
+}
+
+@media (max-width: 800px) {
+  footer {
+    margin: 3em auto 122px;
+  }
+}

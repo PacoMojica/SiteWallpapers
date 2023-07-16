@@ -1,0 +1,36 @@
+.Error404 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 9em auto;
+}
+
+.img_404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-404 {
+  width: 70%;
+  height: 35em;
+}
+
+@media (max-width: 800px) {
+  .image-404 {
+    width: 80%;
+    height: 20em;
+  }
+}
+
+.btnHome {
+  width: 150px;
+}
+
+.notfound-text {
+  width: 100%;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+}
