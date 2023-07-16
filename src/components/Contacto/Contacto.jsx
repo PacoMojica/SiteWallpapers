@@ -1,16 +1,7 @@
-import Header from "../Header";
 import "./Contacto.css";
-import {
-  ImLinkedin,
-  AiFillGithub,
-  FaInstagram,
-  BsFacebook,
-  FaTwitter,
-  BsSpotify,
-  AiFillYoutube,
-} from "react-icons/all";
-import Footer from "../Footer";
 import { useForm, ValidationError } from "@formspree/react";
+import Heder from "../Heder";
+import Footer from "../Footer";
 
 function Contacto() {
   const [state, handleSubmit] = useForm("mrgwgvzq");
@@ -20,7 +11,7 @@ function Contacto() {
 
   return (
     <div className="ContainerContact">
-      <Header />
+      <Heder />
       <div className="container">
         <form onSubmit={handleSubmit} className="form">
           <h1>Contacto</h1>
@@ -70,42 +61,42 @@ function Contacto() {
             href="https://www.linkedin.com/in/luis-angel-ponce-alvarez-848826242/"
             target="_blank"
           >
-            <ImLinkedin className="Linkedin" />
+            <i className="bi bi-linkedin Linkedin"></i>
           </a>
 
           <a
             href="https://www.youtube.com/@LuisAngelPonceAlvarez"
             target="_blank"
           >
-            <AiFillYoutube className="Youtube" />
+            <i className="bi bi-youtube Youtube"></i>
           </a>
 
           <a href="https://github.com/luisangelponcealvarez/" target="_blank">
-            <AiFillGithub className=" Github" />
+            <i className="bi bi-github Github"></i>
           </a>
 
           <a
             href="https://www.instagram.com/poncealvarezluisangel/"
             target="_blank"
           >
-            <FaInstagram className="Instagram" />
+            <i className="bi bi-instagram Instagram"></i>
           </a>
 
           <a
             href="https://www.facebook.com/luisangel.poncealvarez.37"
             target="_blank"
           >
-            <BsFacebook className="Facebook" />
+            <i className="bi bi-facebook Facebook"></i>
           </a>
 
           <a href="https://twitter.com/Luisang01161226" target="_blank">
-            <FaTwitter className="Twitter" />
+            <i className="bi bi-twitter Twitter"></i>
           </a>
           <a
             href="https://open.spotify.com/user/nhf5pz5g4wdgjk0bvw2fzhakd?si=1ff6fa2155254f25"
             target="_blank"
           >
-            <BsSpotify className="Spotify" />
+            <i className="bi bi-spotify Spotify"></i>
           </a>
         </div>
       </div>

@@ -8,10 +8,10 @@ function Error404() {
       <div className="img_404">
         <img className="image-404 m-3" src={image} alt="404" />
       </div>
-      {/* <p className="notfound-text">
+      <p className="notfound-text">
         Esta página no existe o esta en mantenimiento
-      </p> */}
-      <p className="notfound-text">Esta pagina esta en proseso de creación</p>
+      </p>
+      {/* <p className="notfound-text">Esta pagina esta en proseso de creación</p> */}
       <Link to="/" className="btnHome btn btn-secondary m-3">
         Home
       </Link>

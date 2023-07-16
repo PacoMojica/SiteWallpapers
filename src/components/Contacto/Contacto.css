@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: auto 70px;
   margin: auto;
-  color: #fff;
+  color: #000;
 }
 
 .form {
@@ -117,7 +117,7 @@ textarea {
 .Facebook,
 .Twitter,
 .Spotify {
-  color: #fff;
+  color: #000;
   font-size: 30px;
   margin: 10px;
 }
