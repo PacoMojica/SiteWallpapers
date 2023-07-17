@@ -120,6 +120,7 @@ textarea {
   color: #000;
   font-size: 30px;
   margin: 10px;
+  border-radius: 10px;
 }
 
 .Linkedin:hover {
