@@ -1,11 +1,11 @@
 footer {
-  margin: 28px auto 1em;
+  margin: 28px auto 6em;
   text-align: center;
   color: #000;
 }
 
 @media (max-width: 800px) {
   footer {
-    margin: 1em auto 28px;
+    margin: 1em auto 82px;
   }
 }

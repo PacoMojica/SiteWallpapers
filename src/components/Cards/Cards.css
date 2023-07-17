@@ -1,5 +1,11 @@
 .card {
-  width: 18rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 2em 1px 35px;
+  width: 300px;
+  height: 400px;
 }
 
 .img {

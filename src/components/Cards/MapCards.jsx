@@ -4,7 +4,7 @@ function MapCards(props) {
   const { Img, UrlWallpaper, NombreWallpaper } = props.Wallpaper;
   return (
     <>
-      <div className="card m-1 d-inline-flex justify-content-center aling-items-center flex-wrap">
+      <div className="card d-inline-flex flex-wrap justify-content align-content-center">
         <img src={Img} className="card-img-top img" alt={NombreWallpaper} />
         <div className="card-body">
           <h5 className="card-title fs-5">{NombreWallpaper}</h5>
