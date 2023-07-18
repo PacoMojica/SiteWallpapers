@@ -9,7 +9,7 @@ function MapCards(props) {
         <div className="card-body">
           <h5 className="card-title fs-5">{NombreWallpaper}</h5>
           <a href={UrlWallpaper} className="btn btn-primary" target="_Black">
-            Ver
+            Download
           </a>
         </div>
       </div>
