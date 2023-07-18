@@ -19,11 +19,10 @@ const routes = [
     path: "/Anime",
     element: <Anime />,
   },
-  {
-    path: "/Animales",
-    element: <Animales />,
-  },
-
+  // {
+  //   path: "/Animales",
+  //   element: <Animales />,
+  // },
   {
     path: "/*",
     element: <Error404 />,

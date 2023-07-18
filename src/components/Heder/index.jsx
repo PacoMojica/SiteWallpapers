@@ -32,11 +32,11 @@ function Heder() {
                   Anime
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="/Animales" className="nav-link active">
                   Animales
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link to="/Contacto" className="nav-link active">
                   Contacto
