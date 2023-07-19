@@ -18,10 +18,10 @@ const routes = [
     path: "/Anime",
     element: <Anime />,
   },
-  {
-    path: "/Form",
-    element: <Form />,
-  },
+  // {
+  //   path: "/Form",
+  //   element: <Form />,
+  // },
   {
     path: "/*",
     element: <Error404 />,

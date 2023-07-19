@@ -37,11 +37,11 @@ function Heder() {
                   Anime
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="/Form" className="nav-link active text-white fs-5">
                   Formulario
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   to="/Contacto"
