@@ -3,6 +3,7 @@ import App from "./src/App";
 import Error404 from "./src/components/404";
 import Contacto from "./src/components/Contacto/Contacto";
 import Anime from "./src/Site/Anime";
+import Form from "./src/components/Form/Form";
 
 const routes = [
   {
@@ -17,7 +18,10 @@ const routes = [
     path: "/Anime",
     element: <Anime />,
   },
-
+  {
+    path: "/Form",
+    element: <Form />,
+  },
   {
     path: "/*",
     element: <Error404 />,
