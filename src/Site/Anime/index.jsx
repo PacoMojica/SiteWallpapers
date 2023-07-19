@@ -2,7 +2,7 @@ import React from "react";
 import Heder from "../../components/Heder";
 import Footer from "../../components/Footer";
 import AnimesList from "./AnimeList";
-import MapAnime from "./mapAnime";
+import MapAnime from "./MapAnime";
 
 function Anime() {
   const Anime = AnimesList.map((Animes, index) => {
