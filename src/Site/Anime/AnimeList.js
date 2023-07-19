@@ -47,6 +47,30 @@ const AnimesList = [
     UrlAnime:
       "https://www.xtrafondos.com/en/descargar.php?id=10959&resolucion=3840x2160",
   },
+  {
+    Img: "https://www.xtrafondos.com/wallpapers/resized/alice-sao-de-alicization-4368.jpg?s=large",
+    Nombre: "Alice Sao from Alicization",
+    UrlAnime:
+      "https://www.xtrafondos.com/en/descargar.php?id=4368&resolucion=3840x2160",
+  },
+  {
+    Img: "https://www.xtrafondos.com/wallpapers/resized/alice-sao-acostada-de-alicization-4369.jpg?s=large",
+    Nombre: "Alice Sao laying down from Alicization",
+    UrlAnime:
+      "https://www.xtrafondos.com/en/descargar.php?id=4369&resolucion=3840x2160",
+  },
+  {
+    Img: "https://www.xtrafondos.com/wallpapers/resized/zero-two-de-darling-in-the-franxx-4667.jpg?s=large",
+    Nombre: "Zero Two from Darling in the Franxx",
+    UrlAnime:
+      "https://www.xtrafondos.com/en/descargar.php?id=4667&resolucion=3840x2160",
+  },
+  {
+    Img: "https://www.xtrafondos.com/wallpapers/resized/tanjirou-kamado-personaje-de-los-guardianes-de-la-noche-4043.jpg?s=large",
+    Nombre: "Tanjirou Kamado character from Demon Slayer",
+    UrlAnime:
+      "https://www.xtrafondos.com/en/descargar.php?id=4043&resolucion=3840x2160",
+  },
 ];
 
 export default AnimesList;

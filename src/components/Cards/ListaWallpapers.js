@@ -190,5 +190,11 @@ const Lista_wallpapers = [
     NombreWallpaper:
       "Anime, Azur Lane, Animal Ears, Blue Eyes, Blush, Girl, Kaga (Azur Lane)",
   },
+  {
+    Img: "https://www.xtrafondos.com/wallpapers/resized/zero-two-de-darling-in-the-franxx-7876.jpg?s=large",
+    UrlWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=7876&resolucion=1920x1000",
+    NombreWallpaper: "Zero Two from Darling In The Franxx",
+  },
 ];
 export default Lista_wallpapers;
