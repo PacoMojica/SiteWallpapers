@@ -7,3 +7,9 @@
   margin: 10px 42px 10px;
   border-radius: 10px;
 }
+
+@media (max-width: 800px) {
+  .menu {
+    margin: 0px 13px 11px;
+  }
+}

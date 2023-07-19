@@ -5,18 +5,18 @@ import Contacto from "./src/components/Contacto/Contacto";
 import Anime from "./src/Site/Anime";
 
 const routes = [
-  // {
-  //   path: "/",
-  //   element: <App />,
-  // },
-  // {
-  //   path: "/Contacto",
-  //   element: <Contacto />,
-  // },
-  // {
-  //   path: "/Anime",
-  //   element: <Anime />,
-  // },
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/Contacto",
+    element: <Contacto />,
+  },
+  {
+    path: "/Anime",
+    element: <Anime />,
+  },
 
   {
     path: "/*",
