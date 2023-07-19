@@ -1,5 +1,6 @@
 import Heder from "../../components/Heder";
 import Footer from "../../components/Footer";
+import MapAnime from "../Anime/MapAnime";
 
 function Animales() {
   const Animal = AnimesList.map((Animes, index) => {
