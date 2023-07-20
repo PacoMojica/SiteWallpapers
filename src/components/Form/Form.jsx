@@ -4,6 +4,10 @@ import "./Form.css";
 import { useState } from "react";
 
 function Form(props) {
+  function manejarCambio(e) {
+    props.actualizarValor(e.target.value);
+  }
+
   const [Nombre, actualizarNombre] = useState("");
   const [Img, actualizarImg] = useState("");
   const [UrlWallpaper, actualizarUrlWallpaper] = useState("");
@@ -28,6 +32,7 @@ function Form(props) {
             <input
               type="text"
               valor={Nombre}
+              value={manejarCambio}
               actualizarNombre={actualizarNombre}
               className="form-control"
             />
@@ -49,14 +54,6 @@ function Form(props) {
               actualizarUrlWallpaper={actualizarUrlWallpaper}
               className="form-control"
             />
-          </div>
-          <div className="mb-3">
-            <label className="form-label">Categoria</label>
-            <select className="form-select">
-              <option>Anime</option>
-              <option>Animales</option>
-              <option>Espacio</option>
-            </select>
           </div>
           <button onSubmit={ManejandoEnvio} className="btn btn-primary">
             Submit

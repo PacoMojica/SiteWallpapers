@@ -1,8 +1,8 @@
-import Lista_wallpapers from "./ListaWallpapers";
 import MapCards from "./MapCards";
 
-function Cards() {
-  const Wallpaper = Lista_wallpapers.map((Wallpaper, index) => {
+function Cards(props) {
+  const file = props.file;
+  const Wallpaper = file.map((Wallpaper, index) => {
     return <MapCards Wallpaper={Wallpaper} key={index} />;
   });
   return (
