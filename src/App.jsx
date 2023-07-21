@@ -2,11 +2,12 @@ import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import Heder from "./components/Heder";
 
-function App() {
+function App(props) {
+  const file = props.file;
   return (
     <>
       <Heder />
-      <Cards />
+      <Cards file={file} />
       <Footer />
     </>
   );

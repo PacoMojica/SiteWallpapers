@@ -4,11 +4,16 @@ import Error404 from "./src/components/404";
 import Contacto from "./src/components/Contacto/Contacto";
 import Anime from "./src/Site/Anime";
 import Form from "./src/components/Form/Form";
+import { containerWallpapers, lista } from "./src/components/useStateForm";
 
 const routes = [
   {
     path: "/",
-    element: <App />,
+    element: <App file={lista} />,
+  },
+  {
+    path: "/Form",
+    element: <Form datos={containerWallpapers} />,
   },
   {
     path: "/Contacto",
@@ -17,10 +22,6 @@ const routes = [
   {
     path: "/Anime",
     element: <Anime />,
-  },
-  {
-    path: "/Form",
-    element: <Form />,
   },
   {
     path: "/*",
