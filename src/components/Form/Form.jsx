@@ -1,6 +1,5 @@
 import Heder from "../Heder";
 import Footer from "../Footer";
-import "./Form.css";
 
 function Form() {
   return (
@@ -10,22 +9,22 @@ function Form() {
       </h1>
       <form className="form m-5">
         <div className="mb-3">
-          <label className="form-label">Email address</label>
-          <input
-            type="email"
-            className="input"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
+          <label>NombreWallpaper</label>
+          <input type="text" />
         </div>
         <div className="mb-3">
-          <label className="form-label">Password</label>
-          <input type="password" className="input" />
+          <label>UrlWallpaper</label>
+          <input type="url" />
+        </div>
+        <div className="mb-3">
+          <label>DownloadWallpaper</label>
+          <input type="url" />
         </div>
         <button type="submit" className="btn btn-primary">
           Submit
         </button>
       </form>
+
       <Heder />
       <Footer />
     </>
