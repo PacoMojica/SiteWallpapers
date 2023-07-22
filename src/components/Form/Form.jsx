@@ -22,7 +22,8 @@ function Form(props) {
   return (
     <>
       <h1 className="text-center fs-3 m-2">
-        Este es el formulario para subir sus wallpapers
+        Este es el formulario para subir sus wallpapers los wallpapers que subas
+        van a estar en home
       </h1>
       <form onSubmit={ManejandoEnvio} className="form m-5">
         <CampoTexto
