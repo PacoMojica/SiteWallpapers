@@ -1,8 +1,8 @@
 import Heder from "../Heder";
 import Footer from "../Footer";
-
 import { useState } from "react";
 import CampoTexto from "./CampoTexto";
+import Swal from "sweetalert2";
 
 function Form(props) {
   const [NombreWallpaper, ActualizarNombreWallpaper] = useState("");
@@ -16,12 +16,16 @@ function Form(props) {
       DownloadWallpaper,
       NombreWallpaper,
     };
-    alert(
-      `Gracias por agregar un wallpaper el wallpaper que agregaste esta en el Home`
-    );
     props.datos(DatosAEnviar);
+    mostrarAlerta();
   }
-
+  const mostrarAlerta = () => {
+    Swal.fire({
+      text: "Gracias por rellenar el formulario el wallpaper se añadio en el home",
+      timer: "6000",
+      timerProgressBar: true,
+    });
+  };
   return (
     <>
       <h1 className="text-center fs-3 m-5">
@@ -46,7 +50,11 @@ function Form(props) {
           valor={DownloadWallpaper}
           actualizarValor={ActualizarDownloadWallpaper}
         />
-        <button onSubmit={ManejandoEnvio} className="btn btn-primary">
+        <button
+          onSubmit={ManejandoEnvio}
+          id="btn-submit"
+          className="btn btn-primary"
+        >
           Submit
         </button>
       </form>
