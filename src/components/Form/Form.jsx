@@ -1,65 +1,53 @@
 import Heder from "../Heder";
 import Footer from "../Footer";
-import "./Form.css";
+
 import { useState } from "react";
+import CampoTexto from "./CampoTexto";
 
 function Form(props) {
-  function manejarCambio(e) {
-    props.actualizarValor(e.target.value);
-  }
+  const [NombreWallpaper, ActualizarNombreWallpaper] = useState("");
+  const [UrlWallpaper, ActualizarUrlWallpaper] = useState("");
+  const [DownloadWallpaper, ActualizarDownloadWallpaper] = useState("");
 
-  const [Nombre, actualizarNombre] = useState("");
-  const [Img, actualizarImg] = useState("");
-  const [UrlWallpaper, actualizarUrlWallpaper] = useState("");
-
-  function ManejandoEnvio(evet) {
-    evet.preventDefault();
-    let datosAEnviar = {
-      Nombre,
-      Img,
+  function ManejandoEnvio(e) {
+    e.preventDefault();
+    let DatosAEnviar = {
       UrlWallpaper,
+      DownloadWallpaper,
+      NombreWallpaper,
     };
-    props.datos(datosAEnviar);
+    props.datos(DatosAEnviar);
   }
 
   return (
     <>
+      <h1 className="text-center fs-3 m-2">
+        Este es el formulario para subir sus wallpapers
+      </h1>
       <form onSubmit={ManejandoEnvio} className="form m-5">
-        <fieldset>
-          <legend>Este es el formulario para añadir wallpapers</legend>
-          <div className="mb-3">
-            <label className="form-label">Nombre</label>
-            <input
-              type="text"
-              valor={Nombre}
-              value={manejarCambio}
-              actualizarNombre={actualizarNombre}
-              className="form-control"
-            />
-          </div>
-          <div className="mb-3">
-            <label className="form-label">Img</label>
-            <input
-              type="text"
-              valor={Img}
-              actualizarImg={actualizarImg}
-              className="form-control"
-            />
-          </div>
-          <div className="mb-3">
-            <label className="form-label">Url Wallpaper</label>
-            <input
-              type="text"
-              valor={UrlWallpaper}
-              actualizarUrlWallpaper={actualizarUrlWallpaper}
-              className="form-control"
-            />
-          </div>
-          <button onSubmit={ManejandoEnvio} className="btn btn-primary">
-            Submit
-          </button>
-        </fieldset>
+        <CampoTexto
+          placeholder="NombreWallpaper"
+          required
+          valor={NombreWallpaper}
+          actualizarValor={ActualizarNombreWallpaper}
+        />
+        <CampoTexto
+          placeholder="UrlWallpaper"
+          required
+          valor={UrlWallpaper}
+          actualizarValor={ActualizarUrlWallpaper}
+        />
+        <CampoTexto
+          placeholder="DownloadWallpaper"
+          required
+          valor={DownloadWallpaper}
+          actualizarValor={ActualizarDownloadWallpaper}
+        />
+        <button onSubmit={ManejandoEnvio} className="btn btn-primary">
+          Submit
+        </button>
       </form>
+
       <Heder />
       <Footer />
     </>
