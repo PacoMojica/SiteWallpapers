@@ -1,10 +1,15 @@
 import "./Cards.css";
 
 function MapCards(props) {
-  const { UrlWallpaper, DownloadWallpaper, NombreWallpaper } = props.Wallpaper;
+  const {
+    UrlWallpaper,
+    DownloadWallpaper,
+    NombreWallpaper,
+    NombreDeLaPersona,
+  } = props.Wallpaper;
   return (
     <>
-      <div className="card d-inline-flex flex-wrap justify-content align-content-center">
+      <div className="card d-inline-flex flex-wrap justify-content-center align-content-center">
         <img
           src={UrlWallpaper}
           className="card-img-top img"
@@ -12,6 +17,7 @@ function MapCards(props) {
         />
         <div className="card-body">
           <h5 className="card-title fs-5">{NombreWallpaper}</h5>
+          <p>Persona que agrego el wallpaper: {NombreDeLaPersona}</p>
           <a
             href={DownloadWallpaper}
             className="btn btn-primary"

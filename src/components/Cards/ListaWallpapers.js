@@ -12,6 +12,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/digital-digital-art-artwork-illustration-minimalism-vector-wallpaper-gjwkh/download/3840x2160",
     NombreWallpaper:
       "digital, digital art, artwork, illustration, minimalism, vector",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -20,6 +21,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/digital-art-landscape-nature-sun-fantasy-art-illustration-wallpaper-pxqev/download/3840x2160",
     NombreWallpaper:
       "digital art, landscape, nature, Sun, fantasy art, illustration",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -28,6 +30,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/orange-fish-illustration-minimalism-artwork-simple-threadless-wallpaper-ubb/download/3840x2160",
     NombreWallpaper:
       "orange fish illustration, minimalism, artwork, simple, threadless",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -36,6 +39,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/deer-on-mountain-wallpaper-silhouette-of-trees-under-white-sky-illustration-wallpaper-plk/download/3840x2160",
     NombreWallpaper:
       "deer on mountain wallpaper, silhouette of trees under white sky illustration",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -44,6 +48,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/digital-art-fox-landscape-nature-fantasy-art-minimalism-wallpaper-cubgc/download/3840x2160",
     NombreWallpaper:
       "digital art, fox, landscape, nature, fantasy art, minimalism",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -52,6 +57,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/eagle-above-misty-forest-mountains-trees-minimalism-nature-wallpaper-cuswb/download/3840x2160",
     NombreWallpaper:
       "eagle above misty forest, mountains, trees, minimalism, nature",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -60,6 +66,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/landscape-vector-art-minimalism-simple-mountains-digital-art-wallpaper-yhrgj/download/3840x2160",
     NombreWallpaper:
       "landscape, vector art, minimalism, simple, mountains, digital art",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -68,6 +75,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/fox-trees-fantasy-art-dreamland-forest-sky-dark-forest-wallpaper-cvxxx/download/3840x2160",
     NombreWallpaper:
       "fox, trees, fantasy art, dreamland, forest, sky, dark forest",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -76,6 +84,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/digital-digital-art-artwork-fantasy-art-drawing-painting-wallpaper-gjwkg/download/3840x2160",
     NombreWallpaper:
       "digital, digital art, artwork, fantasy art, drawing, painting",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -84,6 +93,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/mountain-and-forest-digital-art-landscape-mountains-fan-art-wallpaper-mdd/download/3840x2160",
     NombreWallpaper:
       "mountain and forest, digital art, landscape, mountains, fan art",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -92,6 +102,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/fire-minimalism-minimalist-artist-artwork-digital-art-wallpaper-bdmow/download/3840x2160",
     NombreWallpaper:
       "fire, minimalism, minimalist, artist, artwork, digital art",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -100,6 +111,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/anime-anime-girls-artwork-simple-simple-background-digital-art-wallpaper-sjfij/download/3840x2160",
     NombreWallpaper:
       "anime, anime girls, artwork, simple, simple background, digital art",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -108,6 +120,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/black-haired-anime-character-manga-anime-girls-simple-background-wallpaper-hjphc/download/3840x2160",
     NombreWallpaper:
       "black haired anime character, manga, anime girls, simple background",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -116,6 +129,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/yae-sakura-honkai-impact-3rd-yae-sakura-honkai-impact-anime-wallpaper-gvpgw/download/3840x2160",
     NombreWallpaper:
       "Yae Sakura, Honkai Impact 3rd, Yae Sakura (Honkai Impact), anime",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -123,6 +137,7 @@ export const Lista_wallpapers = [
     DownloadWallpaper:
       "https://www.wallpaperflare.com/anime-girl-anime-art-cute-kawaii-wallpaper-cvftd/download/3840x2160",
     NombreWallpaper: "anime girl, anime art, cute, kawaii",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -131,6 +146,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/steins-gate-makise-kurisu-in-bed-anime-girls-indoors-one-person-wallpaper-phphu/download/3840x2160",
     NombreWallpaper:
       "Steins;Gate, Makise Kurisu, in bed, anime girls, indoors, one person",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -138,6 +154,7 @@ export const Lista_wallpapers = [
     DownloadWallpaper:
       "https://www.wallpaperflare.com/anime-anime-girls-kimetsu-no-yaiba-kochou-shinobu-wallpaper-ysulc/download/3840x2160",
     NombreWallpaper: "anime, anime girls, Kimetsu no Yaiba, Kochou Shinobu",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -146,6 +163,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/no-game-no-life-jibril-anime-girls-one-person-illuminated-wallpaper-mymbt/download/3840x2160",
     NombreWallpaper:
       "No Game No Life, Jibril, anime girls, one person, illuminated",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -154,6 +172,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/yellow-haired-female-anime-character-holding-tuxedo-cat-illustration-wallpaper-mrot/download/3840x2160",
     NombreWallpaper:
       "yellow haired female anime character holding tuxedo cat illustration",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -162,6 +181,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/anime-anime-girls-picture-in-picture-neon-red-creativity-wallpaper-pegjr/download/3840x2160",
     NombreWallpaper:
       "anime, anime girls, picture-in-picture, neon, red, creativity",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -169,6 +189,7 @@ export const Lista_wallpapers = [
     DownloadWallpaper:
       "https://www.wallpaperflare.com/anime-anime-girls-dark-castle-sky-wallpaper-crcbn/download/3840x2160",
     NombreWallpaper: "anime, anime girls, dark, castle, sky",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -177,6 +198,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/anime-anime-girls-anime-boys-kimetsu-no-yaiba-kamado-tanjir%C5%8D-wallpaper-gjxuu/download/3840x2160",
     NombreWallpaper:
       "anime, anime girls, anime boys, Kimetsu no Yaiba, Kamado Tanjirō",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -185,6 +207,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/anime-the-idolm-ster-cinderella-girls-shiki-ichinose-childhood-wallpaper-svlpj/download/3840x2160",
     NombreWallpaper:
       "Anime, The iDOLM@STER Cinderella Girls, Shiki Ichinose, childhood",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -193,6 +216,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/mahouka-koukou-no-rettousei-shiba-miyuki-anime-girls-plant-wallpaper-paeml/download/3840x2160",
     NombreWallpaper:
       "Mahouka Koukou no Rettousei, Shiba Miyuki, anime girls, plant",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -201,6 +225,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/anime-shibuya-rin-anime-girls-the-idolm-ster-cinderella-girls-wallpaper-uejgu/download/3840x2160",
     NombreWallpaper:
       "anime, Shibuya Rin, anime girls, THE iDOLM@STER: Cinderella Girls",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -208,6 +233,7 @@ export const Lista_wallpapers = [
     DownloadWallpaper:
       "https://www.wallpaperflare.com/anime-anime-girls-moon-long-hair-dark-hair-wallpaper-cgwnv/download/3840x2160",
     NombreWallpaper: "anime, anime girls, Moon, long hair, dark hair",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -216,6 +242,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/anime-azur-lane-animal-ears-blue-eyes-blush-girl-kaga-azur-lane-wallpaper-cwrsn/download/3840x2160",
     NombreWallpaper:
       "Anime, Azur Lane, Animal Ears, Blue Eyes, Blush, Girl, Kaga (Azur Lane)",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
   {
     UrlWallpaper:
@@ -223,5 +250,6 @@ export const Lista_wallpapers = [
     DownloadWallpaper:
       "https://www.xtrafondos.com/en/descargar.php?id=7876&resolucion=1920x1000",
     NombreWallpaper: "Zero Two from Darling In The Franxx",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
 ];

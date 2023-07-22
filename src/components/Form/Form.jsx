@@ -8,6 +8,7 @@ function Form(props) {
   const [NombreWallpaper, ActualizarNombreWallpaper] = useState("");
   const [UrlWallpaper, ActualizarUrlWallpaper] = useState("");
   const [DownloadWallpaper, ActualizarDownloadWallpaper] = useState("");
+  const [NombreDeLaPersona, ActualizarNombreDeLaPersona] = useState("");
 
   function ManejandoEnvio(e) {
     e.preventDefault();
@@ -15,6 +16,7 @@ function Form(props) {
       UrlWallpaper,
       DownloadWallpaper,
       NombreWallpaper,
+      NombreDeLaPersona,
     };
     props.datos(DatosAEnviar);
     mostrarAlerta();
@@ -37,6 +39,12 @@ function Form(props) {
           required
           valor={NombreWallpaper}
           actualizarValor={ActualizarNombreWallpaper}
+        />
+        <CampoTexto
+          placeholder="NombreDeLaPersonaQueLoAñade"
+          required
+          valor={NombreDeLaPersona}
+          actualizarValor={ActualizarNombreDeLaPersona}
         />
         <CampoTexto
           placeholder="UrlWallpaper"
