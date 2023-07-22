@@ -147,71 +147,81 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "No Game No Life, Jibril, anime girls, one person, illuminated",
   },
-  // {
-  //   Img: "https://c4.wallpaperflare.com/wallpaper/57/539/710/joukamachi-no-dandelion-anime-anime-girls-loli-wallpaper-preview.jpg",
-  //   UrlWallpaper:
-  //     "https://www.wallpaperflare.com/yellow-haired-female-anime-character-holding-tuxedo-cat-illustration-wallpaper-mrot/download/3840x2160",
-  //   NombreWallpaper:
-  //     "yellow haired female anime character holding tuxedo cat illustration",
-  // },
-  // {
-  //   Img: "https://c4.wallpaperflare.com/wallpaper/301/934/327/anime-anime-girls-picture-in-picture-neon-wallpaper-preview.jpg",
-  //   UrlWallpaper:
-  //     "https://www.wallpaperflare.com/anime-anime-girls-picture-in-picture-neon-red-creativity-wallpaper-pegjr/download/3840x2160",
-  //   NombreWallpaper:
-  //     "anime, anime girls, picture-in-picture, neon, red, creativity",
-  // },
-  // {
-  //   Img: "https://c4.wallpaperflare.com/wallpaper/971/690/451/anime-anime-girls-dark-castle-wallpaper-preview.jpg",
-  //   UrlWallpaper:
-  //     "https://www.wallpaperflare.com/anime-anime-girls-dark-castle-sky-wallpaper-crcbn/download/3840x2160",
-  //   NombreWallpaper: "anime, anime girls, dark, castle, sky",
-  // },
-  // {
-  //   Img: "https://c4.wallpaperflare.com/wallpaper/710/167/674/anime-anime-girls-anime-boys-kimetsu-no-yaiba-kamado-tanjir%C5%8D-hd-wallpaper-preview.jpg",
-  //   UrlWallpaper:
-  //     "https://www.wallpaperflare.com/anime-anime-girls-anime-boys-kimetsu-no-yaiba-kamado-tanjir%C5%8D-wallpaper-gjxuu/download/3840x2160",
-  //   NombreWallpaper:
-  //     "anime, anime girls, anime boys, Kimetsu no Yaiba, Kamado Tanjirō",
-  // },
-  // {
-  //   Img: "https://c4.wallpaperflare.com/wallpaper/922/685/222/anime-the-idolm-ster-cinderella-girls-shiki-ichinose-wallpaper-preview.jpg",
-  //   UrlWallpaper:
-  //     "https://www.wallpaperflare.com/anime-the-idolm-ster-cinderella-girls-shiki-ichinose-childhood-wallpaper-svlpj/download/3840x2160",
-  //   NombreWallpaper:
-  //     "Anime, The iDOLM@STER Cinderella Girls, Shiki Ichinose, childhood",
-  // },
-  // {
-  //   Img: "https://c4.wallpaperflare.com/wallpaper/407/868/897/mahouka-koukou-no-rettousei-shiba-miyuki-anime-girls-wallpaper-preview.jpg",
-  //   UrlWallpaper:
-  //     "https://www.wallpaperflare.com/mahouka-koukou-no-rettousei-shiba-miyuki-anime-girls-plant-wallpaper-paeml/download/3840x2160",
-  //   NombreWallpaper:
-  //     "Mahouka Koukou no Rettousei, Shiba Miyuki, anime girls, plant",
-  // },
-  // {
-  //   Img: "https://c4.wallpaperflare.com/wallpaper/903/769/249/anime-shibuya-rin-anime-girls-the-idolm-ster-cinderella-girls-wallpaper-preview.jpg",
-  //   UrlWallpaper:
-  //     "https://www.wallpaperflare.com/anime-shibuya-rin-anime-girls-the-idolm-ster-cinderella-girls-wallpaper-uejgu/download/3840x2160",
-  //   NombreWallpaper:
-  //     "anime, Shibuya Rin, anime girls, THE iDOLM@STER: Cinderella Girls",
-  // },
-  // {
-  //   Img: "https://c4.wallpaperflare.com/wallpaper/776/935/773/anime-anime-girls-moon-long-hair-wallpaper-preview.jpg",
-  //   UrlWallpaper:
-  //     "https://www.wallpaperflare.com/anime-anime-girls-moon-long-hair-dark-hair-wallpaper-cgwnv/download/3840x2160",
-  //   NombreWallpaper: "anime, anime girls, Moon, long hair, dark hair",
-  // },
-  // {
-  //   Img: "https://c4.wallpaperflare.com/wallpaper/627/974/537/anime-azur-lane-animal-ears-blue-eyes-wallpaper-preview.jpg",
-  //   UrlWallpaper:
-  //     "https://www.wallpaperflare.com/anime-azur-lane-animal-ears-blue-eyes-blush-girl-kaga-azur-lane-wallpaper-cwrsn/download/3840x2160",
-  //   NombreWallpaper:
-  //     "Anime, Azur Lane, Animal Ears, Blue Eyes, Blush, Girl, Kaga (Azur Lane)",
-  // },
-  // {
-  //   Img: "https://www.xtrafondos.com/wallpapers/resized/zero-two-de-darling-in-the-franxx-7876.jpg?s=large",
-  //   UrlWallpaper:
-  //     "https://www.xtrafondos.com/en/descargar.php?id=7876&resolucion=1920x1000",
-  //   NombreWallpaper: "Zero Two from Darling In The Franxx",
-  // },
+  {
+    UrlWallpaper:
+      "https://c4.wallpaperflare.com/wallpaper/57/539/710/joukamachi-no-dandelion-anime-anime-girls-loli-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperflare.com/yellow-haired-female-anime-character-holding-tuxedo-cat-illustration-wallpaper-mrot/download/3840x2160",
+    NombreWallpaper:
+      "yellow haired female anime character holding tuxedo cat illustration",
+  },
+  {
+    UrlWallpaper:
+      "https://c4.wallpaperflare.com/wallpaper/301/934/327/anime-anime-girls-picture-in-picture-neon-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperflare.com/anime-anime-girls-picture-in-picture-neon-red-creativity-wallpaper-pegjr/download/3840x2160",
+    NombreWallpaper:
+      "anime, anime girls, picture-in-picture, neon, red, creativity",
+  },
+  {
+    UrlWallpaper:
+      "https://c4.wallpaperflare.com/wallpaper/971/690/451/anime-anime-girls-dark-castle-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperflare.com/anime-anime-girls-dark-castle-sky-wallpaper-crcbn/download/3840x2160",
+    NombreWallpaper: "anime, anime girls, dark, castle, sky",
+  },
+  {
+    UrlWallpaper:
+      "https://c4.wallpaperflare.com/wallpaper/710/167/674/anime-anime-girls-anime-boys-kimetsu-no-yaiba-kamado-tanjir%C5%8D-hd-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperflare.com/anime-anime-girls-anime-boys-kimetsu-no-yaiba-kamado-tanjir%C5%8D-wallpaper-gjxuu/download/3840x2160",
+    NombreWallpaper:
+      "anime, anime girls, anime boys, Kimetsu no Yaiba, Kamado Tanjirō",
+  },
+  {
+    UrlWallpaper:
+      "https://c4.wallpaperflare.com/wallpaper/922/685/222/anime-the-idolm-ster-cinderella-girls-shiki-ichinose-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperflare.com/anime-the-idolm-ster-cinderella-girls-shiki-ichinose-childhood-wallpaper-svlpj/download/3840x2160",
+    NombreWallpaper:
+      "Anime, The iDOLM@STER Cinderella Girls, Shiki Ichinose, childhood",
+  },
+  {
+    UrlWallpaper:
+      "https://c4.wallpaperflare.com/wallpaper/407/868/897/mahouka-koukou-no-rettousei-shiba-miyuki-anime-girls-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperflare.com/mahouka-koukou-no-rettousei-shiba-miyuki-anime-girls-plant-wallpaper-paeml/download/3840x2160",
+    NombreWallpaper:
+      "Mahouka Koukou no Rettousei, Shiba Miyuki, anime girls, plant",
+  },
+  {
+    UrlWallpaper:
+      "https://c4.wallpaperflare.com/wallpaper/903/769/249/anime-shibuya-rin-anime-girls-the-idolm-ster-cinderella-girls-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperflare.com/anime-shibuya-rin-anime-girls-the-idolm-ster-cinderella-girls-wallpaper-uejgu/download/3840x2160",
+    NombreWallpaper:
+      "anime, Shibuya Rin, anime girls, THE iDOLM@STER: Cinderella Girls",
+  },
+  {
+    UrlWallpaper:
+      "https://c4.wallpaperflare.com/wallpaper/776/935/773/anime-anime-girls-moon-long-hair-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperflare.com/anime-anime-girls-moon-long-hair-dark-hair-wallpaper-cgwnv/download/3840x2160",
+    NombreWallpaper: "anime, anime girls, Moon, long hair, dark hair",
+  },
+  {
+    UrlWallpaper:
+      "https://c4.wallpaperflare.com/wallpaper/627/974/537/anime-azur-lane-animal-ears-blue-eyes-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperflare.com/anime-azur-lane-animal-ears-blue-eyes-blush-girl-kaga-azur-lane-wallpaper-cwrsn/download/3840x2160",
+    NombreWallpaper:
+      "Anime, Azur Lane, Animal Ears, Blue Eyes, Blush, Girl, Kaga (Azur Lane)",
+  },
+  {
+    UrlWallpaper:
+      "https://www.xtrafondos.com/wallpapers/resized/zero-two-de-darling-in-the-franxx-7876.jpg?s=large",
+    DownloadWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=7876&resolucion=1920x1000",
+    NombreWallpaper: "Zero Two from Darling In The Franxx",
+  },
 ];
