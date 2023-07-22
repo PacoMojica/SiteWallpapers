@@ -16,14 +16,16 @@ function Form(props) {
       DownloadWallpaper,
       NombreWallpaper,
     };
+    alert(
+      `Gracias por agregar un wallpaper el wallpaper que agregaste esta en el Home`
+    );
     props.datos(DatosAEnviar);
   }
 
   return (
     <>
-      <h1 className="text-center fs-3 m-2">
-        Este es el formulario para subir sus wallpapers los wallpapers que subas
-        van a estar en home
+      <h1 className="text-center fs-3 m-5">
+        Este es el formulario para subir sus wallpapers
       </h1>
       <form onSubmit={ManejandoEnvio} className="form m-5">
         <CampoTexto
