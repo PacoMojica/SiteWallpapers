@@ -1,13 +1,14 @@
 import MapCards from "./MapCards";
 
 function Cards(props) {
-  const file = props.file;
-  const Wallpaper = file.map((Wallpaper, index) => {
-    return <MapCards Wallpaper={Wallpaper} key={index} />;
-  });
+  const lista = props.lista;
   return (
     <>
-      <section>{Wallpaper}</section>
+      <section>
+        {lista.map((Wallpaper, index) => {
+          return <MapCards Wallpaper={Wallpaper} key={index} />;
+        })}
+      </section>
     </>
   );
 }
