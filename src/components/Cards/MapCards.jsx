@@ -6,7 +6,7 @@ function MapCards(props) {
     DownloadWallpaper,
     NombreWallpaper,
     NombreDeLaPersona,
-  } = props.Wallpaper;
+  } = props.lista;
   return (
     <>
       <div className="card d-inline-flex flex-wrap justify-content-center align-content-center">

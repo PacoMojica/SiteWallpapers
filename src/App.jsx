@@ -11,7 +11,7 @@ function App() {
   const [lista, actualizarLista] = useState(Lista_wallpapers);
 
   function containerWallpaper(Data) {
-    actualizarLista(...lista, Data);
+    actualizarLista([...lista, Data]);
   }
 
   return (

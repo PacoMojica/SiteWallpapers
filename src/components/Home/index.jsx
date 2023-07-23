@@ -2,7 +2,8 @@ import Cards from "../Cards";
 import Footer from "../Footer";
 import Heder from "../Heder";
 
-function Home({ lista }) {
+function Home(props) {
+  const lista = props.lista;
   return (
     <>
       <Heder />

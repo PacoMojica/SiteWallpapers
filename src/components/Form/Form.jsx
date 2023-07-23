@@ -29,7 +29,7 @@ function Form(props) {
       NombreWallpaper,
       NombreDeLaPersona,
     };
-    props.Data(setDatos([Datos, DatosAEnviar]));
+    props.Data(setDatos([...Datos, DatosAEnviar]));
     mostrarAlerta();
     limpiarFormulario();
   }
