@@ -10,8 +10,8 @@ import Anime from "./Site/Anime";
 function App() {
   const [lista, actualizarLista] = useState(Lista_wallpapers);
 
-  const containerWallpaper = (setDatos) => {
-    actualizarLista(...lista, setDatos);
+  const containerWallpaper = (Data) => {
+    actualizarLista(...lista, Data);
   };
 
   return (
@@ -19,10 +19,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home lista={lista} />} />
-          <Route
-            path="/Form"
-            element={<Form setDatos={containerWallpaper} />}
-          />
+          <Route path="/Form" element={<Form Data={containerWallpaper} />} />
           <Route path="/Anime" element={<Anime />} />
           <Route path="/Contacto" element={<Contacto />} />
           <Route path="/*" element={<Error404 />} />

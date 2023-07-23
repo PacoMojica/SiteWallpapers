@@ -5,8 +5,6 @@ import CampoTexto from "./CampoTexto";
 import Swal from "sweetalert2";
 
 function Form(props) {
-  const datos = props.datos;
-
   const [NombreWallpaper, ActualizarNombreWallpaper] = useState("");
   const [UrlWallpaper, ActualizarUrlWallpaper] = useState("");
   const [DownloadWallpaper, ActualizarDownloadWallpaper] = useState("");
@@ -31,10 +29,11 @@ function Form(props) {
       NombreWallpaper,
       NombreDeLaPersona,
     };
-    setDatos(DatosAEnviar);
+    props.Data(setDatos(DatosAEnviar));
     mostrarAlerta();
     limpiarFormulario();
   }
+
   const mostrarAlerta = () => {
     Swal.fire({
       text: "Gracias por rellenar el formulario el wallpaper se añadio en el home",
