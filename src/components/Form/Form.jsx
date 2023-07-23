@@ -3,6 +3,7 @@ import Footer from "../Footer";
 import { useEffect, useState } from "react";
 import CampoTexto from "./CampoTexto";
 import Swal from "sweetalert2";
+import { Lista_wallpapers } from "../Cards/ListaWallpapers";
 
 function Form(props) {
   const [NombreWallpaper, ActualizarNombreWallpaper] = useState("");
@@ -15,12 +16,11 @@ function Form(props) {
     if (wallpaper) {
       return JSON.parse(wallpaper);
     } else {
-      return [];
+      return Lista_wallpapers;
     }
   };
 
   const [Datos, setDatos] = useState(obtenerWallpapers());
-
   function ManejandoEnvio(e) {
     e.preventDefault();
     let DatosAEnviar = {
@@ -84,13 +84,18 @@ function Form(props) {
           valor={DownloadWallpaper}
           actualizarValor={ActualizarDownloadWallpaper}
         />
-        <button
-          onSubmit={ManejandoEnvio}
-          id="btn-submit"
-          className="btn btn-primary"
-        >
-          Submit
-        </button>
+        <div className="d-flex">
+          <button
+            onSubmit={ManejandoEnvio}
+            id="btn-submit"
+            className="btn btn-primary m-2"
+          >
+            Subir
+          </button>
+          <button onClick={limpiarFormulario} className="btn btn-primary m-2">
+            limpiarFormulario
+          </button>
+        </div>
       </form>
 
       <Heder />
