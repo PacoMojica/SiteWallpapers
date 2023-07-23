@@ -1,14 +1,27 @@
 import Heder from "../Heder";
 import Footer from "../Footer";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CampoTexto from "./CampoTexto";
 import Swal from "sweetalert2";
 
 function Form(props) {
+  const datos = props.datos;
+
   const [NombreWallpaper, ActualizarNombreWallpaper] = useState("");
   const [UrlWallpaper, ActualizarUrlWallpaper] = useState("");
   const [DownloadWallpaper, ActualizarDownloadWallpaper] = useState("");
   const [NombreDeLaPersona, ActualizarNombreDeLaPersona] = useState("");
+
+  const obtenerWallpapers = () => {
+    var wallpaper = localStorage.getItem("Datos");
+    if (wallpaper) {
+      return JSON.parse(wallpaper);
+    } else {
+      return [];
+    }
+  };
+
+  const [Datos, setDatos] = useState(obtenerWallpapers());
 
   function ManejandoEnvio(e) {
     e.preventDefault();
@@ -18,8 +31,9 @@ function Form(props) {
       NombreWallpaper,
       NombreDeLaPersona,
     };
-    props.datos(DatosAEnviar);
+    setDatos(DatosAEnviar);
     mostrarAlerta();
+    limpiarFormulario();
   }
   const mostrarAlerta = () => {
     Swal.fire({
@@ -28,12 +42,25 @@ function Form(props) {
       timerProgressBar: true,
     });
   };
+
+  function limpiarFormulario() {
+    ActualizarNombreWallpaper("");
+    ActualizarUrlWallpaper("");
+    ActualizarDownloadWallpaper("");
+    ActualizarNombreDeLaPersona("");
+    document.getElementById("Form").reset();
+  }
+
+  useEffect(() => {
+    localStorage.setItem("Datos", JSON.stringify(Datos));
+  }, [Datos]);
+
   return (
     <>
       <h1 className="text-center fs-3 m-5">
         Este es el formulario para subir sus wallpapers
       </h1>
-      <form onSubmit={ManejandoEnvio} className="form m-5">
+      <form onSubmit={ManejandoEnvio} id="Form" className="form m-5">
         <CampoTexto
           placeholder="NombreWallpaper"
           required

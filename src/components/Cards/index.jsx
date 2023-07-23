@@ -1,7 +1,6 @@
 import MapCards from "./MapCards";
 
-function Cards(props) {
-  const lista = props.lista;
+function Cards({ lista }) {
   return (
     <>
       <section>
