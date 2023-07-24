@@ -5,7 +5,7 @@ import CampoTexto from "./CampoTexto";
 import Swal from "sweetalert2";
 import { Lista_wallpapers } from "../Cards/ListaWallpapers";
 
-function Form(props) {
+function Form({ Data }) {
   const [NombreWallpaper, ActualizarNombreWallpaper] = useState("");
   const [UrlWallpaper, ActualizarUrlWallpaper] = useState("");
   const [DownloadWallpaper, ActualizarDownloadWallpaper] = useState("");
@@ -21,6 +21,7 @@ function Form(props) {
   };
 
   const [Datos, setDatos] = useState(obtenerWallpapers());
+
   function ManejandoEnvio(e) {
     e.preventDefault();
     let DatosAEnviar = {
@@ -29,7 +30,7 @@ function Form(props) {
       NombreWallpaper,
       NombreDeLaPersona,
     };
-    props.Data(setDatos([...Datos, DatosAEnviar]));
+    Data(setDatos(Datos, DatosAEnviar));
     mostrarAlerta();
     limpiarFormulario();
   }

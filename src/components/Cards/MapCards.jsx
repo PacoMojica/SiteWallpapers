@@ -1,12 +1,11 @@
 import "./Cards.css";
 
-function MapCards(props) {
-  const {
-    UrlWallpaper,
-    DownloadWallpaper,
-    NombreWallpaper,
-    NombreDeLaPersona,
-  } = props.lista;
+function MapCards({
+  UrlWallpaper,
+  DownloadWallpaper,
+  NombreWallpaper,
+  NombreDeLaPersona,
+}) {
   return (
     <>
       <div className="card d-inline-flex flex-wrap justify-content-center align-content-center">

@@ -1,12 +1,11 @@
 import MapCards from "./MapCards";
 
-function Cards(props) {
-  const lista = props.lista;
+function Cards({ wallpapers }) {
   return (
     <>
       <section>
-        {lista.map((lista, index) => {
-          return <MapCards lista={lista} key={index} />;
+        {wallpapers.map((wallpapers, index) => {
+          return <MapCards wallpapers={wallpapers} key={index} />;
         })}
       </section>
     </>
