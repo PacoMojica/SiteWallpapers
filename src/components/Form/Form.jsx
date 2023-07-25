@@ -30,7 +30,7 @@ function Form({ Data }) {
       NombreWallpaper,
       NombreDeLaPersona,
     };
-    Data(setDatos(Datos, DatosAEnviar));
+    Data(setDatos([...Datos, DatosAEnviar]));
     mostrarAlerta();
     limpiarFormulario();
   }

@@ -4,9 +4,9 @@ function Cards({ wallpapers }) {
   return (
     <>
       <section>
-        {wallpapers.map((wallpapers, index) => {
-          return <MapCards wallpapers={wallpapers} key={index} />;
-        })}
+        {wallpapers.map((wallpapers, index) => (
+          <MapCards wallpapers={wallpapers} key={index} />
+        ))}
       </section>
     </>
   );

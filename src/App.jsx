@@ -10,7 +10,7 @@ function App({ Datos }) {
   const [wallpapers, setWallpapers] = useState([Datos]);
 
   function ListaWallpapers(Data) {
-    setWallpapers(wallpapers, Data);
+    setWallpapers(...wallpapers, Data);
   }
 
   return (
