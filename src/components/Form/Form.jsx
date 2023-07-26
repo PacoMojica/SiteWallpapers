@@ -2,8 +2,8 @@ import Heder from "../Heder";
 import Footer from "../Footer";
 import { useEffect, useState } from "react";
 import CampoTexto from "./CampoTexto";
-import Swal from "sweetalert2";
 import { Lista_wallpapers } from "../Cards/ListaWallpapers";
+import Swal from "sweetalert2";
 
 function Form({ Data }) {
   const [NombreWallpaper, ActualizarNombreWallpaper] = useState("");
@@ -31,17 +31,20 @@ function Form({ Data }) {
       NombreDeLaPersona,
     };
     Data(setDatos([...Datos, DatosAEnviar]));
-    mostrarAlerta();
+    MostrarAlerta();
     limpiarFormulario();
   }
-
-  const mostrarAlerta = () => {
+  function MostrarAlerta() {
     Swal.fire({
-      text: "Gracias por rellenar el formulario el wallpaper se añadio en el home",
+      text: "Gracias por rellenar el formulario",
       timer: "6000",
       timerProgressBar: true,
     });
-  };
+  }
+
+  useEffect(() => {
+    localStorage.setItem("Datos", JSON.stringify(Datos));
+  }, [Datos]);
 
   function limpiarFormulario() {
     ActualizarNombreWallpaper("");
@@ -50,10 +53,6 @@ function Form({ Data }) {
     ActualizarNombreDeLaPersona("");
     document.getElementById("Form").reset();
   }
-
-  useEffect(() => {
-    localStorage.setItem("Datos", JSON.stringify(Datos));
-  }, [Datos]);
 
   return (
     <>

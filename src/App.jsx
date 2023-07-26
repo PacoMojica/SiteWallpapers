@@ -6,8 +6,8 @@ import Contacto from "./components/Contacto";
 import Anime from "./Site/Anime";
 import { useState } from "react";
 
-function App({ Datos }) {
-  const [wallpapers, setWallpapers] = useState([Datos]);
+function App({ Data }) {
+  const [wallpapers, setWallpapers] = useState([Data]);
 
   function ListaWallpapers(Data) {
     setWallpapers(...wallpapers, Data);
