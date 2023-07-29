@@ -22,6 +22,10 @@ function Form({ Data }) {
 
   const [Datos, setDatos] = useState(obtenerWallpapers());
 
+  useEffect(() => {
+    localStorage.setItem("Datos", JSON.stringify(Datos));
+  }, [Datos]);
+
   function ManejandoEnvio(e) {
     e.preventDefault();
     let DatosAEnviar = {
@@ -41,10 +45,6 @@ function Form({ Data }) {
       timerProgressBar: true,
     });
   }
-
-  useEffect(() => {
-    localStorage.setItem("Datos", JSON.stringify(Datos));
-  }, [Datos]);
 
   function limpiarFormulario() {
     ActualizarNombreWallpaper("");
