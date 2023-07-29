@@ -4,9 +4,9 @@ import "./Heder.css";
 function Heder() {
   return (
     <>
-      <nav className="menu navbar navbar-expand-lg bg-black ">
+      <nav className="menu navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container-fluid">
-          <Link className="navbar-brand text-white fs-5" to="/">
+          <Link className="navbar-brand text-black fs-5" to="/">
             Wallpapers
           </Link>
 
@@ -26,26 +26,26 @@ function Heder() {
               <li className="nav-item fs-5">
                 <Link
                   to="/"
-                  className="nav-link active text-white"
+                  className="nav-link active text-black"
                   aria-current="page"
                 >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/Anime" className="nav-link active text-white fs-5">
+                <Link to="/Anime" className="nav-link active text-black fs-5">
                   Anime
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/Form" className="nav-link active text-white fs-5">
+                <Link to="/Form" className="nav-link active text-black fs-5">
                   Formulario
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   to="/Contacto"
-                  className="nav-link active text-white fs-5"
+                  className="nav-link active text-black fs-5"
                 >
                   Contacto
                 </Link>
