@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   margin: 12px auto auto 35px;
   width: 330px;
-  height: 420px;
 }
 
 .img {
@@ -14,7 +13,6 @@
 @media (max-width: 800px) {
   .card {
     width: 300px;
-    height: 416px;
     margin: 10px 10px auto;
   }
 }
