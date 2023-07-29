@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./Cards.css";
 
 function MapCards(props) {
@@ -7,6 +8,13 @@ function MapCards(props) {
     NombreWallpaper,
     NombreDeLaPersona,
   } = props.Wallpaper;
+
+  const [Like, setLike] = useState(0);
+
+  function OnLike() {
+    setLike(Like + 1);
+  }
+
   return (
     <>
       <div className="card d-inline-flex flex-wrap justify-content-center align-content-center">
@@ -25,6 +33,8 @@ function MapCards(props) {
           >
             Download
           </a>
+          <i className="bi bi-heart m-4 fs-4" onClick={OnLike} />
+          <p>Likes {Like}</p>
         </div>
       </div>
     </>
