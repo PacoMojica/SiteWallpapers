@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Cards.css";
 
 function MapCards(props) {
+  // Constantes de los datos
   const {
     UrlWallpaper,
     DownloadWallpaper,
@@ -9,10 +10,18 @@ function MapCards(props) {
     NombreDeLaPersona,
   } = props.Wallpaper;
 
+  // Estado del like
   const [Like, setLike] = useState(0);
 
   function OnLike() {
     setLike(Like + 1);
+  }
+
+  // Animación de img
+  const [AnimaciónImg, setAnimaciónImg] = useState(false);
+
+  function handleAnimación() {
+    setAnimaciónImg(!AnimaciónImg);
   }
 
   return (
@@ -20,7 +29,8 @@ function MapCards(props) {
       <div className="card d-inline-flex flex-wrap justify-content-center align-content-center">
         <img
           src={UrlWallpaper}
-          className="card-img-top img"
+          className={`box ${AnimaciónImg ? "scaled" : ""}`}
+          onMouseLeave={handleAnimación}
           alt={NombreWallpaper}
         />
         <div className="card-body">
