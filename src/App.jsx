@@ -5,12 +5,13 @@ import Form from "./components/Form/Form";
 import Contacto from "./components/Contacto";
 import Anime from "./Site/Anime";
 import { useState } from "react";
+import { obtenerWallpapers } from "./components/OptenerWallpapers";
 
 function App() {
-  const [wallpapers, setWallpapers] = useState([]);
+  const [wallpapers, setWallpapers] = useState(obtenerWallpapers());
 
   function ListaWallpapers(Data) {
-    setWallpapers(...wallpapers, Data);
+    setWallpapers([...wallpapers, Data]);
   }
 
   return (

@@ -1,15 +1,13 @@
 import { useState } from "react";
 import "./Cards.css";
 
-function MapCards(props) {
-  // Constantes de los datos
+function MapCards({ itemWallpapers }) {
   const {
     UrlWallpaper,
     DownloadWallpaper,
     NombreWallpaper,
     NombreDeLaPersona,
-  } = props.Wallpaper;
-
+  } = itemWallpapers;
   // Estado del like
   const [Like, setLike] = useState(0);
 

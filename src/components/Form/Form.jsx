@@ -2,8 +2,8 @@ import Heder from "../Heder";
 import Footer from "../Footer";
 import { useEffect, useState } from "react";
 import CampoTexto from "./CampoTexto";
-import { Lista_wallpapers } from "../Cards/ListaWallpapers";
 import Swal from "sweetalert2";
+import { obtenerWallpapers } from "../OptenerWallpapers";
 
 function Form({ Data }) {
   const [NombreWallpaper, ActualizarNombreWallpaper] = useState("");
@@ -11,19 +11,20 @@ function Form({ Data }) {
   const [DownloadWallpaper, ActualizarDownloadWallpaper] = useState("");
   const [NombreDeLaPersona, ActualizarNombreDeLaPersona] = useState("");
 
-  const obtenerWallpapers = () => {
-    var wallpaper = localStorage.getItem("Datos");
-    if (wallpaper) {
-      return JSON.parse(wallpaper);
-    } else {
-      return Lista_wallpapers;
-    }
-  };
-
-  const [Datos, setDatos] = useState(obtenerWallpapers());
+  const [Datos, setDatos] = useState();
 
   useEffect(() => {
-    localStorage.setItem("Datos", JSON.stringify(Datos));
+    if (!Datos) {
+      const wallpapers = obtenerWallpapers();
+      setDatos(wallpapers);
+      Data(wallpapers);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (Datos) {
+      localStorage.setItem("Datos", JSON.stringify(Datos));
+    }
   }, [Datos]);
 
   function ManejandoEnvio(e) {
@@ -34,7 +35,8 @@ function Form({ Data }) {
       NombreWallpaper,
       NombreDeLaPersona,
     };
-    Data(setDatos([...Datos, DatosAEnviar]));
+    setDatos([...Datos, DatosAEnviar]);
+    Data([...Datos, DatosAEnviar]);
     MostrarAlerta();
     limpiarFormulario();
   }
