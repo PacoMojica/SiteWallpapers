@@ -61,6 +61,7 @@ function Form({ Data }) {
       <h1 className="text-center fs-3 m-5">
         Este es el formulario para subir sus wallpapers
       </h1>
+      <p>Enlace del sitio que yo utilizo: https://www.xtrafondos.com/en/</p>
       <form onSubmit={ManejandoEnvio} id="Form" className="form m-5">
         <CampoTexto
           placeholder="NombreWallpaper"
