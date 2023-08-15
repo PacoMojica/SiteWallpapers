@@ -9,11 +9,11 @@ function MapCards({ itemWallpapers }) {
     NombreDeLaPersona,
   } = itemWallpapers;
   // Estado del like
-  const [Like, setLike] = useState(0);
+  // const [Like, setLike] = useState(0);
 
-  function OnLike() {
-    setLike(Like + 1);
-  }
+  // function OnLike() {
+  //   setLike(Like + 1);
+  // }
 
   // Animación de img
   // const [AnimaciónImg, setAnimaciónImg] = useState(false);
@@ -42,8 +42,8 @@ function MapCards({ itemWallpapers }) {
           >
             Download
           </a>
-          <i className="bi bi-heart m-4 fs-4" onClick={OnLike} />
-          <p>Likes {Like}</p>
+          {/* <i className="bi bi-heart m-4 fs-4" onClick={OnLike} /> */}
+          {/* <p>Likes {Like}</p> */}
         </div>
       </div>
     </>

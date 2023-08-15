@@ -6,6 +6,7 @@ import Contacto from "./components/Contacto";
 import Anime from "./Site/Anime";
 import { useState } from "react";
 import { obtenerWallpapers } from "./components/OptenerWallpapers";
+import { UnsplashAPI } from "./components/UnisplashApi";
 
 function App() {
   const [wallpapers, setWallpapers] = useState(obtenerWallpapers());
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Form" element={<Form Data={ListaWallpapers} />} />
           <Route path="/Anime" element={<Anime />} />
           <Route path="/Contacto" element={<Contacto />} />
+          <Route path="/Unsplash" element={<UnsplashAPI />} />
           <Route path="/*" element={<Error404 />} />
         </Routes>
       </Router>
