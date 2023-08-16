@@ -16,7 +16,7 @@ export function UnsplashAPI() {
               "Client-ID cnHcjBsNrb53Yl448j_jdKaMGDIVypFNX_g3Ob6a9Bg",
           },
         });
-        console.log(response);
+        console.log(response.data);
         setPhotos(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);
