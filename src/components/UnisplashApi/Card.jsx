@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Unisplash.css";
+import { Button } from "../Button";
 
 export function Card(props) {
   const { key, urls, alt_description, created_at, likes, links, user } =
@@ -28,8 +29,8 @@ export function Card(props) {
             />
             <p>{user.username}</p>
             <p>likes: {likes}</p>
-            <a href={links.download} className="btn btn-primary">
-              Download
+            <a href={links.download}>
+              <Button text="Download" />
             </a>
           </div>
         </div>

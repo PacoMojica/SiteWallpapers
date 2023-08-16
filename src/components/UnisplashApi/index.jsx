@@ -3,6 +3,8 @@ import axios from "axios";
 import { Card } from "./Card";
 import Heder from "../Heder";
 import Footer from "../Footer";
+import { Input } from "../Input";
+import { Button } from "../Button";
 
 export function UnsplashAPI() {
   const [photos, setPhotos] = useState([]);
@@ -30,6 +32,8 @@ export function UnsplashAPI() {
     <>
       <Heder />
       <h1 className="text-center m-2">Unsplash Photos</h1>
+      <Input placeholder="Introduce lo que quieras buscar" />
+      <Button text="Buscar" />
       <div>
         {photos.map((photo) => (
           <Card photo={photo} key={photo.id} />
