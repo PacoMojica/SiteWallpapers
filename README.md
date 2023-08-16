@@ -6,7 +6,7 @@
 2. Instala dependencias: npm install
 3. Ejecuta el servidor: npm run dev esto posisionara en el http://localhost:3000/
 4. Para poder subir cambios necesitarias ponerte en contacto con migo en https://luisangelponcealvarez.netlify.app/Contact
-5. cual quier cambio que quieran subir madar lo a la rama deployments
+5. cual quier cambio que quieran subir madar lo a la rama Deployments
 
 ## Miniatura
 
