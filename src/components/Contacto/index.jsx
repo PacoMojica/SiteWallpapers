@@ -13,7 +13,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import Heder from "../Heder";
 
 function Contacto() {
-  const [state, handleSubmit] = useForm("mrgwgvzq");
+  const [state, handleSubmit] = useForm("");
   if (state.succeeded) {
     alert("Gracias por contactarme, te escribiré pronto");
   }

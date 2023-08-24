@@ -22,8 +22,8 @@ function App() {
           <Route path="/" element={<Home wallpapers={wallpapers} />} />
           <Route path="/Form" element={<Form Data={ListaWallpapers} />} />
           <Route path="/Anime" element={<Anime />} />
-          <Route path="/Contacto" element={<Contacto />} />
-          {/* <Route path="/Unsplash" element={<UnsplashAPI />} /> */}
+          {/* <Route path="/Contacto" element={<Contacto />} /> */}
+          <Route path="/Unsplash" element={<UnsplashAPI />} />
           <Route path="/*" element={<Error404 />} />
         </Routes>
       </Router>
