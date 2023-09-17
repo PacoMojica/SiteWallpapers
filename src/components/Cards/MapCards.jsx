@@ -24,14 +24,15 @@ function MapCards({ itemWallpapers }) {
 
   return (
     <>
-      <div className="card d-inline-flex flex-wrap justify-content-center align-content-center">
+      <div className="card">
         <img
+          className="card-img-top card-image"
           src={UrlWallpaper}
-          style={{ width: "100%", height: "200px" }}
           // className={`box ${AnimaciónImg ? "scaled" : ""}`}
           // onMouseLeave={handleAnimación}
           alt={NombreWallpaper}
         />
+
         <div className="card-body">
           <h5 className="card-title fs-5">{NombreWallpaper}</h5>
           <p>Persona que agrego el wallpaper: {NombreDeLaPersona}</p>

@@ -37,11 +37,13 @@ function Heder() {
                   Anime
                 </Link>
               </li>
+
               <li className="nav-item">
                 <Link to="/Form" className="nav-link active text-black fs-5">
                   Formulario
                 </Link>
               </li>
+
               <li className="nav-item">
                 <Link
                   to="/Unsplash"
@@ -53,7 +55,25 @@ function Heder() {
 
               <li className="nav-item">
                 <Link
-                  to="/Contacto"
+                  to="/MyWallpapers"
+                  className="nav-link active text-black fs-5"
+                >
+                  Mis wallpapers
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link
+                  to="/Vector-forest"
+                  className="nav-link active text-black fs-5"
+                >
+                  Vector forest
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link
+                  to="https://luisangelponcealvarez.netlify.app/Contact"
                   className="nav-link active text-black fs-5"
                 >
                   Contacto

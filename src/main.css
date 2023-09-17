@@ -5,3 +5,11 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
+body {
+  background-color: aqua;
+}
+
+section {
+  margin: 1em auto;
+}

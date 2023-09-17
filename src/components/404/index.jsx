@@ -1,6 +1,6 @@
+import Heder from "../Heder";
 import "./404.css";
 import image from "/Img/404.gif";
-import { Link } from "react-router-dom";
 
 function Error404() {
   return (
@@ -12,9 +12,7 @@ function Error404() {
         Esta página no existe o esta en mantenimiento
       </p>
       {/* <p className="notfound-text">Esta pagina esta en proseso de creación</p> */}
-      <Link to="/" className="btnHome btn btn-secondary m-3">
-        Home
-      </Link>
+      <Heder />
     </div>
   );
 }
