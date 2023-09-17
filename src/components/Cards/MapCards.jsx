@@ -1,6 +1,3 @@
-import { useState } from "react";
-import "./Cards.css";
-
 function MapCards({ itemWallpapers }) {
   const {
     UrlWallpaper,
@@ -11,7 +8,7 @@ function MapCards({ itemWallpapers }) {
 
   return (
     <>
-      <a href={DownloadWallpaper} target="_Black">
+      <a href={DownloadWallpaper}>
         <img
           className="card-img-top card-image"
           src={UrlWallpaper}

@@ -1,10 +1,13 @@
-// {
-//   Img: "",
-//   UrlWallpaper: "",
-//   NombreWallpaper: "",
-// },
-
 export const Lista_wallpapers = [
+  {
+    UrlWallpaper:
+      "https://www.xtrafondos.com/wallpapers/resized/sukuna-de-jujutsu-kaisen-8302.jpg?s=large",
+    DownloadWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=8302&resolucion=3840x2160",
+    NombreWallpaper: "Sukuna from Jujutsu Kaisen",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+  },
+
   {
     UrlWallpaper:
       "https://c4.wallpaperflare.com/wallpaper/980/85/258/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg",
@@ -250,6 +253,38 @@ export const Lista_wallpapers = [
     DownloadWallpaper:
       "https://www.xtrafondos.com/en/descargar.php?id=7876&resolucion=1920x1000",
     NombreWallpaper: "Zero Two from Darling In The Franxx",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+  },
+  {
+    UrlWallpaper:
+      "https://www.xtrafondos.com/wallpapers/resized/ichigo-de-darling-in-the-franxx-7877.jpg?s=large",
+    DownloadWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=7877&resolucion=2560x1440",
+    NombreWallpaper: "Ichigo from Darling in the Franxx",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+  },
+  {
+    UrlWallpaper:
+      "https://www.xtrafondos.com/wallpapers/resized/marin-kitagawa-my-dress-up-darling-9422.jpg?s=large",
+    DownloadWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=9422&resolucion=3840x2160",
+    NombreWallpaper: "Marin Kitagawa My dress up darling",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+  },
+  {
+    UrlWallpaper:
+      "https://www.xtrafondos.com/wallpapers/resized/satoru-gojo-en-jujutsu-kaisen-9173.jpg?s=large",
+    DownloadWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=9173&resolucion=3840x2160",
+    NombreWallpaper: "Satoru Gojo in Jujutsu Kaisen",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+  },
+  {
+    UrlWallpaper:
+      "https://www.xtrafondos.com/wallpapers/resized/muichiro-tokito-de-kimetsu-no-yaiba-11701.jpg?s=large",
+    DownloadWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=11701&resolucion=3840x2160",
+    NombreWallpaper: "Muichiro Tokito from Demon Slayer ",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
   },
 ];

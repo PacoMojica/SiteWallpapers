@@ -18,7 +18,7 @@ export function UnsplashAPI() {
               "Client-ID cnHcjBsNrb53Yl448j_jdKaMGDIVypFNX_g3Ob6a9Bg",
           },
         });
-        console.log(response.data);
+        // console.log(response.data);
         setPhotos(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -32,8 +32,8 @@ export function UnsplashAPI() {
     <>
       <Heder />
       <h1 className="text-center m-2">Unsplash Photos</h1>
-      <Input placeholder="Introduce lo que quieras buscar" />
-      <Button text="Buscar" />
+      {/* <Input placeholder="Introduce lo que quieras buscar" /> */}
+      {/* <Button text="Buscar" /> */}
       <div>
         {photos.map((photo) => (
           <Card photo={photo} key={photo.id} />

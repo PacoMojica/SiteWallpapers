@@ -1,4 +1,13 @@
-.img {
+.card {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 1em;
+  width: 300px;
+}
+
+.img-unisplash {
   width: 100%;
   height: 250px;
 }
