@@ -53,6 +53,15 @@ function Heder() {
 
               <li className="nav-item">
                 <Link
+                  to="/NotionWallpapers"
+                  className="nav-link active fs-5 text-white"
+                >
+                  NotionWallpapers
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link
                   to="https://luisangelponcealvarez.netlify.app/Contact"
                   className="nav-link active  fs-5 text-white"
                 >
