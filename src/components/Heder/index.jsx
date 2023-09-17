@@ -53,15 +53,6 @@ function Heder() {
 
               <li className="nav-item">
                 <Link
-                  to="/Vector-forest"
-                  className="nav-link active  fs-5 text-white"
-                >
-                  Vector forest
-                </Link>
-              </li>
-
-              <li className="nav-item">
-                <Link
                   to="https://luisangelponcealvarez.netlify.app/Contact"
                   className="nav-link active  fs-5 text-white"
                 >
