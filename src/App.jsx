@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home wallpapers={wallpapers} />} />
-          {/* <Route path="/Form" element={<Form Data={ListaWallpapers} />} /> */}
+          <Route path="/Form" element={<Form Data={ListaWallpapers} />} />
           <Route path="/Anime" element={<Anime />} />
           <Route path="/Unsplash" element={<UnsplashAPI />} />
           {/* <Route path="/Vector-forest" element={<Vector_forest />} /> */}

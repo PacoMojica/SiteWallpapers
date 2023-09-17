@@ -1,3 +1,5 @@
+import "./Form.css";
+
 function CampoTexto(props) {
   function manejarCambio(e) {
     props.actualizarValor(e.target.value);
@@ -5,7 +7,7 @@ function CampoTexto(props) {
   return (
     <>
       <input
-        className="m-2"
+        className="form form-control m-2"
         type="text"
         placeholder={props.placeholder}
         value={props.valor}

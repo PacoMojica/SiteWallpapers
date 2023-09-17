@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
 section {
   margin: auto 4em;
 }

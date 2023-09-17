@@ -61,32 +61,35 @@ function Form({ Data }) {
       <h1 className="text-center fs-3 m-5">
         Este es el formulario para subir sus wallpapers
       </h1>
-      <p>Enlace del sitio que yo utilizo: https://www.xtrafondos.com/en/</p>
-      <form onSubmit={ManejandoEnvio} id="Form" className="form m-5">
+      <p className="text-center">
+        Lo que guardes en este formulario solo se guarda en tu dispositivo
+      </p>
+      <form onSubmit={ManejandoEnvio} id="Form" className="m-5">
         <CampoTexto
-          placeholder="NombreWallpaper"
+          placeholder="Nombre Wallpaper"
           required
           valor={NombreWallpaper}
           actualizarValor={ActualizarNombreWallpaper}
         />
         <CampoTexto
-          placeholder="NombreDeLaPersonaQueLoAñade"
+          placeholder="Nombre De La Persona Que Lo Añade"
           required
           valor={NombreDeLaPersona}
           actualizarValor={ActualizarNombreDeLaPersona}
         />
         <CampoTexto
-          placeholder="UrlWallpaper"
+          placeholder="Wallpaper"
           required
           valor={UrlWallpaper}
           actualizarValor={ActualizarUrlWallpaper}
         />
         <CampoTexto
-          placeholder="DownloadWallpaper"
+          placeholder="Download Wallpaper"
           required
           valor={DownloadWallpaper}
           actualizarValor={ActualizarDownloadWallpaper}
         />
+
         <div className="d-flex">
           <button
             onSubmit={ManejandoEnvio}
@@ -95,6 +98,7 @@ function Form({ Data }) {
           >
             Subir
           </button>
+
           <button onClick={limpiarFormulario} className="btn btn-primary m-2">
             limpiarFormulario
           </button>

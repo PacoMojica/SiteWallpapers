@@ -31,14 +31,14 @@ function Heder() {
               </li>
 
               <li className="nav-item">
-                <Link to="/Anime" className="nav-link active  fs-5 text-white">
-                  Anime
+                <Link to="/Form" className="nav-link active  fs-5 text-white">
+                  Formulario
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link to="/Form" className="nav-link active  fs-5 text-white">
-                  Formulario
+                <Link to="/Anime" className="nav-link active  fs-5 text-white">
+                  Anime
                 </Link>
               </li>
 
