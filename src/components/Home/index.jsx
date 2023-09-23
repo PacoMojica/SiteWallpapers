@@ -1,4 +1,4 @@
-import Cards from "../Cards";
+import { Cards } from "../Cards";
 import Footer from "../Footer";
 import Heder from "../Heder";
 

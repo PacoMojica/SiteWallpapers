@@ -1,15 +1,12 @@
-import MapCards from "./MapCards";
+const { Client } = require("@notionhq/client");
 
-function Cards({ wallpapers }) {
-  return (
-    <>
-      <section>
-        {wallpapers.map((itemWallpapers, index) => (
-          <MapCards itemWallpapers={itemWallpapers} key={index} />
-        ))}
-      </section>
-    </>
-  );
+export async function Cards() {
+  const notion = new Client({
+    auth: { NOTION_API_KEY },
+  });
+
+  const results = await notion.databases.query({
+    database_id: DATABASE_ID,
+  });
+  console.log(results);
 }
-
-export default Cards;
