@@ -6,6 +6,7 @@ export const Lista_wallpapers = [
       "https://www.xtrafondos.com/en/descargar.php?id=8302&resolucion=3840x2160",
     NombreWallpaper: "Sukuna from Jujutsu Kaisen",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
 
   {
@@ -16,6 +17,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "digital, digital art, artwork, illustration, minimalism, vector",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -25,6 +27,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "digital art, landscape, nature, Sun, fantasy art, illustration",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -34,6 +37,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "orange fish illustration, minimalism, artwork, simple, threadless",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -43,6 +47,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "deer on mountain wallpaper, silhouette of trees under white sky illustration",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -52,6 +57,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "digital art, fox, landscape, nature, fantasy art, minimalism",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -61,6 +67,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "eagle above misty forest, mountains, trees, minimalism, nature",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -70,6 +77,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "landscape, vector art, minimalism, simple, mountains, digital art",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -79,6 +87,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "fox, trees, fantasy art, dreamland, forest, sky, dark forest",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -88,6 +97,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "digital, digital art, artwork, fantasy art, drawing, painting",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -97,6 +107,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "mountain and forest, digital art, landscape, mountains, fan art",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -106,6 +117,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "fire, minimalism, minimalist, artist, artwork, digital art",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -115,6 +127,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "anime, anime girls, artwork, simple, simple background, digital art",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -124,6 +137,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "black haired anime character, manga, anime girls, simple background",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -133,6 +147,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "Yae Sakura, Honkai Impact 3rd, Yae Sakura (Honkai Impact), anime",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -141,6 +156,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/anime-girl-anime-art-cute-kawaii-wallpaper-cvftd/download/3840x2160",
     NombreWallpaper: "anime girl, anime art, cute, kawaii",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -150,6 +166,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "Steins;Gate, Makise Kurisu, in bed, anime girls, indoors, one person",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -158,6 +175,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/anime-anime-girls-kimetsu-no-yaiba-kochou-shinobu-wallpaper-ysulc/download/3840x2160",
     NombreWallpaper: "anime, anime girls, Kimetsu no Yaiba, Kochou Shinobu",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -167,6 +185,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "No Game No Life, Jibril, anime girls, one person, illuminated",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -176,6 +195,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "yellow haired female anime character holding tuxedo cat illustration",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -185,6 +205,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "anime, anime girls, picture-in-picture, neon, red, creativity",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -193,6 +214,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/anime-anime-girls-dark-castle-sky-wallpaper-crcbn/download/3840x2160",
     NombreWallpaper: "anime, anime girls, dark, castle, sky",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -202,6 +224,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "anime, anime girls, anime boys, Kimetsu no Yaiba, Kamado Tanjirō",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -211,6 +234,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "Anime, The iDOLM@STER Cinderella Girls, Shiki Ichinose, childhood",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -220,6 +244,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "Mahouka Koukou no Rettousei, Shiba Miyuki, anime girls, plant",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -229,6 +254,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "anime, Shibuya Rin, anime girls, THE iDOLM@STER: Cinderella Girls",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -237,6 +263,7 @@ export const Lista_wallpapers = [
       "https://www.wallpaperflare.com/anime-anime-girls-moon-long-hair-dark-hair-wallpaper-cgwnv/download/3840x2160",
     NombreWallpaper: "anime, anime girls, Moon, long hair, dark hair",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -246,6 +273,7 @@ export const Lista_wallpapers = [
     NombreWallpaper:
       "Anime, Azur Lane, Animal Ears, Blue Eyes, Blush, Girl, Kaga (Azur Lane)",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -254,6 +282,7 @@ export const Lista_wallpapers = [
       "https://www.xtrafondos.com/en/descargar.php?id=7876&resolucion=1920x1000",
     NombreWallpaper: "Zero Two from Darling In The Franxx",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -262,6 +291,7 @@ export const Lista_wallpapers = [
       "https://www.xtrafondos.com/en/descargar.php?id=7877&resolucion=2560x1440",
     NombreWallpaper: "Ichigo from Darling in the Franxx",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -270,6 +300,7 @@ export const Lista_wallpapers = [
       "https://www.xtrafondos.com/en/descargar.php?id=9422&resolucion=3840x2160",
     NombreWallpaper: "Marin Kitagawa My dress up darling",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -278,6 +309,7 @@ export const Lista_wallpapers = [
       "https://www.xtrafondos.com/en/descargar.php?id=9173&resolucion=3840x2160",
     NombreWallpaper: "Satoru Gojo in Jujutsu Kaisen",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
   {
     UrlWallpaper:
@@ -286,5 +318,60 @@ export const Lista_wallpapers = [
       "https://www.xtrafondos.com/en/descargar.php?id=11701&resolucion=3840x2160",
     NombreWallpaper: "Muichiro Tokito from Demon Slayer ",
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
+  },
+  {
+    UrlWallpaper:
+      "https://www.xtrafondos.com/wallpapers/resized/chica-anime-en-la-noche-con-luna-6867.jpg?s=large",
+    DownloadWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=6867&resolucion=3840x2160",
+    NombreWallpaper: "Anime girl at night with moon Wallpaper",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
+  },
+  {
+    UrlWallpaper:
+      "https://p4.wallpaperbetter.com/wallpaper/897/921/233/dark-forest-vector-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperbetter.com/en/hd-wallpaper-ttrvg/download/7680x4320",
+    NombreWallpaper: "Bare trees wallpaper",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
+  },
+  {
+    UrlWallpaper:
+      "https://p4.wallpaperbetter.com/wallpaper/676/215/815/abstract-graphic-design-vector-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperbetter.com/en/hd-wallpaper-ttleb/download/7680x4320",
+    NombreWallpaper: "Color rain wallpaper",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
+  },
+  {
+    UrlWallpaper:
+      "https://p4.wallpaperbetter.com/wallpaper/872/20/51/forest-birds-vector-merry-christmas-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperbetter.com/en/hd-wallpaper-pyrmb/download/7680x4320",
+    NombreWallpaper: "Bird perching on pine tree wallpaper",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
+  },
+  {
+    UrlWallpaper:
+      "https://p4.wallpaperbetter.com/wallpaper/87/822/575/deer-forest-vector-landscape-illustration-hd-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperbetter.com/en/hd-wallpaper-wyioi/download/7680x4320",
+    NombreWallpaper: "vector landscape",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
+  },
+  {
+    UrlWallpaper:
+      "https://p4.wallpaperbetter.com/wallpaper/95/376/911/birds-landscape-vector-mountains-forest-hd-wallpaper-preview.jpg",
+    DownloadWallpaper:
+      "https://www.wallpaperbetter.com/en/hd-wallpaper-wyioe/download/7680x4320",
+    NombreWallpaper: "Birds, landscape, vector, mountains, forest",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
   },
 ];

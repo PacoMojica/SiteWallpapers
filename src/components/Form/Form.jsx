@@ -1,15 +1,16 @@
-import Heder from "../Heder";
 import Footer from "../Footer";
 import { useEffect, useState } from "react";
 import CampoTexto from "./CampoTexto";
 import Swal from "sweetalert2";
 import { obtenerWallpapers } from "../OptenerWallpapers";
+import { Header } from "../Header";
 
 function Form({ Data }) {
   const [NombreWallpaper, ActualizarNombreWallpaper] = useState("");
   const [UrlWallpaper, ActualizarUrlWallpaper] = useState("");
   const [DownloadWallpaper, ActualizarDownloadWallpaper] = useState("");
   const [NombreDeLaPersona, ActualizarNombreDeLaPersona] = useState("");
+  const [Description, ActualizarDescription] = useState("");
 
   const [Datos, setDatos] = useState();
 
@@ -34,6 +35,7 @@ function Form({ Data }) {
       DownloadWallpaper,
       NombreWallpaper,
       NombreDeLaPersona,
+      Description,
     };
     setDatos([...Datos, DatosAEnviar]);
     Data([...Datos, DatosAEnviar]);
@@ -53,6 +55,7 @@ function Form({ Data }) {
     ActualizarUrlWallpaper("");
     ActualizarDownloadWallpaper("");
     ActualizarNombreDeLaPersona("");
+    ActualizarDescription("");
     document.getElementById("Form").reset();
   }
 
@@ -90,6 +93,13 @@ function Form({ Data }) {
           actualizarValor={ActualizarDownloadWallpaper}
         />
 
+        <CampoTexto
+          placeholder="Description"
+          required
+          valor={Description}
+          actualizarValor={ActualizarDescription}
+        />
+
         <div className="d-flex">
           <button
             onSubmit={ManejandoEnvio}
@@ -105,7 +115,7 @@ function Form({ Data }) {
         </div>
       </form>
 
-      <Heder />
+      <Header />
       <Footer />
     </>
   );

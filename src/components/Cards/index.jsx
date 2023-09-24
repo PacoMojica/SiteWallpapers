@@ -1,4 +1,4 @@
-import MapCards from "./MapCards";
+import { MapCards } from "./MapCards";
 
 function Cards({ wallpapers }) {
   return (
