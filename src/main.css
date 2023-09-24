@@ -22,7 +22,7 @@ section {
   flex-wrap: wrap;
   width: 400px;
   height: 300px;
-  margin: 10px;
+  margin: 1em 1.4em;
 }
 
 .card-wallpaper .face {
@@ -92,4 +92,23 @@ section {
 
 .card-wallpaper:hover .back {
   transform: perspective(600px) rotateY(360deg);
+}
+
+@media (max-width: 800px) {
+  .card-wallpaper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+  }
+
+  .card-wallpaper .face {
+    width: 300px;
+    height: 250px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 1s;
+  }
 }
