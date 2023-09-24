@@ -374,4 +374,31 @@ export const Lista_wallpapers = [
     NombreDeLaPersona: "LuisAngelPonceAlvarez",
     Description: "",
   },
+  {
+    UrlWallpaper:
+      "https://www.xtrafondos.com/wallpapers/resized/nezuko-kamado-de-kimetsu-no-yaiba-11708.jpg?s=large",
+    DownloadWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=11708&resolucion=7680x4320",
+    NombreWallpaper: "Nezuko Kamado from Kimetsu no Yaiba",
+    NombreDeLaPersona: "LuisAngelPonceAlvarez",
+    Description: "",
+  },
+  {
+    UrlWallpaper:
+      "https://www.xtrafondos.com/wallpapers/resized/chica-anime-cabello-blanco-con-katana-11287.jpg?s=large",
+    DownloadWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=11287&resolucion=3840x2160",
+    NombreWallpaper: "Anime girl white hair with katana",
+    NombreDeLaPersona: "LuisAnglPonceAlvarez",
+    Description: "",
+  },
+  {
+    UrlWallpaper:
+      "https://www.xtrafondos.com/wallpapers/resized/amanecer-anime-chica-silueta-paisaje-3721.jpg?s=large",
+    DownloadWallpaper:
+      "https://www.xtrafondos.com/en/descargar.php?id=3721&resolucion=3840x2160",
+    NombreWallpaper: "Sunrise Anime Girl Silhouette Scenery",
+    NombreDeLaPersona: "LuisAnglPonceAlvarez",
+    Description: "",
+  },
 ];

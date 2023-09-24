@@ -10,4 +10,4 @@
 
 ## Miniatura
 
-![Miniatura](./public/Img/miniatura.png)
+![Miniatura](/public/Img/miniatura.png)
