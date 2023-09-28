@@ -8,30 +8,107 @@
 
 body {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  min-height: 100vh;
 }
 
 section {
   margin: auto 4em;
 }
 
-.card-image {
+/* Estos son los estilos de los cards */
+
+.card-wallpaper {
   display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1em 1em;
-  border-radius: 10px;
+  flex-wrap: wrap;
   width: 400px;
-  height: 200px;
-  transition: transform 0.3s;
+  height: 300px;
+  margin: 1em 1.4em;
 }
 
-.card-image:hover {
-  transform: scale(1.2);
+.card-wallpaper .face {
+  width: 400px;
+  height: 250px;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.card-wallpaper .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card-wallpaper .front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-wallpaper .front h5 {
+  position: absolute;
+  bottom: -7px;
+  width: 100%;
+  color: #f3f3f3;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.card-wallpaper .back {
+  position: absolute;
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 7px 10px #000;
+}
+
+.card-wallpaper .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.card-wallpaper .back .link a {
+  text-decoration: none;
+  color: #f3f3f3;
+}
+
+.card-wallpaper .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+/* animación de la card */
+
+.card-wallpaper:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card-wallpaper:hover .back {
+  transform: perspective(600px) rotateY(360deg);
 }
 
 @media (max-width: 800px) {
-  .card-image {
-    width: 100%;
-    height: 200px;
+  .card-wallpaper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+  }
+
+  .card-wallpaper .face {
+    width: 300px;
+    height: 250px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 1s;
   }
 }

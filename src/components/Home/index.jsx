@@ -1,11 +1,11 @@
 import { Cards } from "../Cards";
 import Footer from "../Footer";
-import Heder from "../Heder";
+import { Header } from "../Header";
 
 function Home({ wallpapers }) {
   return (
     <>
-      <Heder />
+      <Header />
       <Cards wallpapers={wallpapers} />
       <Footer />
     </>

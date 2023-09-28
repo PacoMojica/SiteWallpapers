@@ -1,4 +1,4 @@
-import Heder from "../Heder";
+import { Header } from "../Header";
 import "./404.css";
 import image from "/Img/404.gif";
 
@@ -12,7 +12,7 @@ function Error404() {
         Esta página no existe o esta en mantenimiento
       </p>
       {/* <p className="notfound-text">Esta pagina esta en proseso de creación</p> */}
-      <Heder />
+      <Header />
     </div>
   );
 }

@@ -5,9 +5,8 @@ import Form from "./components/Form/Form";
 import Anime from "./Site/Anime";
 import { useState } from "react";
 import { obtenerWallpapers } from "./components/OptenerWallpapers";
-import { UnsplashAPI } from "./components/UnisplashApi";
-import { Vector_forest } from "./Site/Vector-forest";
-import { GetWalpapers } from "./components/Cards/Notion";
+// import { UnsplashAPI } from "./components/UnisplashApi";
+// import { Vector_forest } from "./Site/Vector-forest";
 
 function App() {
   const [wallpapers, setWallpapers] = useState(obtenerWallpapers());
@@ -23,8 +22,7 @@ function App() {
           <Route path="/" element={<Home wallpapers={wallpapers} />} />
           <Route path="/Form" element={<Form Data={ListaWallpapers} />} />
           <Route path="/Anime" element={<Anime />} />
-          <Route path="/Unsplash" element={<UnsplashAPI />} />
-          <Route path="/NotionWallpapers" element={<GetWalpapers />} />
+          {/* <Route path="/Unsplash" element={<UnsplashAPI />} /> */}
           {/* <Route path="/Vector-forest" element={<Vector_forest />} /> */}
           <Route path="/*" element={<Error404 />} />
         </Routes>

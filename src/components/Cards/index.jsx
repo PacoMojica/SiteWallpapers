@@ -1,4 +1,5 @@
-const { Client } = require("@notionhq/client");
+import { MapCards } from "./MapCards";
+import { Client } from "@notionhq/client";
 
 export async function Cards() {
   const notion = new Client({
