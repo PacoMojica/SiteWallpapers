@@ -4,7 +4,7 @@ export function MapCards({ itemWallpapers }) {
     DownloadWallpaper,
     NombreWallpaper,
     NombreDeLaPersona,
-    Description,
+    Creador,
   } = itemWallpapers;
 
   return (
@@ -21,7 +21,7 @@ export function MapCards({ itemWallpapers }) {
 
         <div className="face back">
           <h6>Nombre de la persona: {NombreDeLaPersona}</h6>
-          <p>{Description}</p>
+          <p>Nombre del Creador del wallpaper: {Creador}</p>
           <div className="link">
             <a
               href={DownloadWallpaper}

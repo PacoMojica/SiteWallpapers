@@ -31,9 +31,9 @@ export function Header() {
         <nav id="menu" className={`menu ${menu ? "mostrar" : ""}`}>
           <ul>
             <li>
-              <Link to="/" className="nav-link active text-white">
+              <a href="/" className="nav-link active text-white">
                 Home
-              </Link>
+              </a>
             </li>
 
             <li>

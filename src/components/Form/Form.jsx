@@ -10,7 +10,7 @@ function Form({ Data }) {
   const [UrlWallpaper, ActualizarUrlWallpaper] = useState("");
   const [DownloadWallpaper, ActualizarDownloadWallpaper] = useState("");
   const [NombreDeLaPersona, ActualizarNombreDeLaPersona] = useState("");
-  const [Description, ActualizarDescription] = useState("");
+  const [Creador, ActualizarCreador] = useState("");
 
   const [Datos, setDatos] = useState();
 
@@ -35,16 +35,17 @@ function Form({ Data }) {
       DownloadWallpaper,
       NombreWallpaper,
       NombreDeLaPersona,
-      Description,
+      Creador,
     };
     setDatos([...Datos, DatosAEnviar]);
     Data([...Datos, DatosAEnviar]);
     MostrarAlerta();
     limpiarFormulario();
   }
+
   function MostrarAlerta() {
     Swal.fire({
-      text: "Gracias por rellenar el formulario",
+      text: "Gracias por rellenar el formulario el walpaper esta en la pagina home",
       timer: "6000",
       timerProgressBar: true,
     });
@@ -55,7 +56,7 @@ function Form({ Data }) {
     ActualizarUrlWallpaper("");
     ActualizarDownloadWallpaper("");
     ActualizarNombreDeLaPersona("");
-    ActualizarDescription("");
+    ActualizarCreador("");
     document.getElementById("Form").reset();
   }
 
@@ -94,10 +95,10 @@ function Form({ Data }) {
         />
 
         <CampoTexto
-          placeholder="Description"
+          placeholder="Creador"
           required
-          valor={Description}
-          actualizarValor={ActualizarDescription}
+          valor={Creador}
+          actualizarValor={ActualizarCreador}
         />
 
         <div className="d-flex">
