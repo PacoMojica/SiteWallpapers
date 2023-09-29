@@ -1,12 +1,12 @@
-import { Cards } from "../Cards";
 import Footer from "../Footer";
 import { Header } from "../Header";
+import { Datos } from "../NotionDatabase";
 
 function Home({ wallpapers }) {
   return (
     <>
       <Header />
-      <Cards wallpapers={wallpapers} />
+      <Datos wallpapers={wallpapers} />
       <Footer />
     </>
   );

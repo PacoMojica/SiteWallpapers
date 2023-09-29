@@ -1,4 +1,4 @@
-import { Lista_wallpapers } from "../Cards/ListaWallpapers";
+import { Lista_wallpapers } from "../NotionDatabase/ListaWallpapers";
 
 export function obtenerWallpapers() {
   // debugger;
