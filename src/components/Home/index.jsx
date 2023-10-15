@@ -1,15 +1,13 @@
 import Footer from "../Footer";
 import { Header } from "../Header";
-import { Datos } from "../NotionDatabase";
+import { Notion_Api } from "../NotionDatabase";
 
-function Home({ wallpapers }) {
+export function Home() {
   return (
     <>
-      <Header />
-      <Datos wallpapers={wallpapers} />
-      <Footer />
+      {/* <Header /> */}
+      <Notion_Api />
+      {/* <Footer /> */}
     </>
   );
 }
-
-export default Home;

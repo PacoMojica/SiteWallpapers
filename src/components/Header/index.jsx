@@ -47,15 +47,6 @@ export function Header() {
                 Anime
               </Link>
             </li>
-
-            <li>
-              <Link
-                to="https://luisangelponcealvarez.netlify.app/Contact"
-                className="nav-link active"
-              >
-                Contacto
-              </Link>
-            </li>
           </ul>
         </nav>
       </header>
