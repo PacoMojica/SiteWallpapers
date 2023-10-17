@@ -1,12 +1,19 @@
-import Footer from "../Footer";
-import { Header } from "../Header";
-import { Notion_Api } from "../NotionDatabase";
+// import Footer from "../Footer";
+// import { Header } from "../Header";
+import { useNotionApi } from "../NotionDatabase";
+import { usePokeApi } from "../NotionDatabase/pokemon";
 
 export function Home() {
+  // const { data, error, loading } = useNotionApi();
+  const { data, error, loading } = usePokeApi();
+
+  if (loading) return <p>Loading database...</p>;
+  if (error) return <code>{JSON.stringify(error)}</code>
+
   return (
     <>
       {/* <Header /> */}
-      <Notion_Api />
+      <code>{JSON.stringify(data)}</code>
       {/* <Footer /> */}
     </>
   );
